@@ -8,7 +8,7 @@ Unlike traditional cloud storage systems (Google Drive, Dropbox), BlockVault eli
 
 ## 🚀 Live Demo
 
-👉 Link: (https://block-vault-ebon.vercel.app/)
+👉 Link : https://block-vault-ebon.vercel.app/
 
 
 
