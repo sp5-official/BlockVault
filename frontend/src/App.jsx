@@ -22,11 +22,11 @@ function App() {
 
       await saveToBlockchain(cid, file.name);
 
-      alert("Uploaded + stored on blockchain 🚀");
+      alert("Uploaded + stored on Blockchain");
 
     } catch (err) {
       console.error(err);
-      alert("Upload failed ❌");
+      alert("Upload failed");
     }
   };
 
