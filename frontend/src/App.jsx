@@ -39,7 +39,7 @@ function App() {
       const signer = await provider.getSigner();
 
       const contract = new ethers.Contract(
-        "0x5FbDB2315678afecb367f032d93F642f64180aa3", // 🔴 must be latest
+        "0x7394C7AFcbB6F9dD12f4620E8d49d86469C8f30c", // 🔴 must be latest
         [
           "function uploadFile(string memory _cid, string memory _name) public"
         ],
@@ -64,7 +64,7 @@ function App() {
       const provider = new ethers.BrowserProvider(window.ethereum);
 
       const contract = new ethers.Contract(
-        "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+        "0x7394C7AFcbB6F9dD12f4620E8d49d86469C8f30c",
         [
           "function getTotalFiles() view returns (uint)",
           "function getFile(uint) view returns (string,string,address,uint)"
